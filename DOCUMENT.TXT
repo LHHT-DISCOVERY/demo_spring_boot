@@ -1,0 +1,4 @@
+https://mybatis.org/generator/configreference/xmlconfig.html
+https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools/3.2.4
+https://www.programmersought.com/article/8672121650/
+https://javadevjournal.com/spring-security-tutorial/
