@@ -31,11 +31,7 @@ public class HomePageControlelr {
 		return andView;
 	}
 
-	@PostMapping("/logincustom")
-	public ModelAndView doLogin() {
-		ModelAndView andView = new ModelAndView("login/login");
-		return andView;
-	}
+
 
 	@GetMapping("/public")
 	public ModelAndView home() {
@@ -44,14 +40,12 @@ public class HomePageControlelr {
 	}
 
 	@GetMapping("/user/list")
-	@PreAuthorize("hasAnyRole('USER','ADMIN')")
 	public ModelAndView home1() {
 		ModelAndView andView = new ModelAndView("index");
 		return andView;
 	}
 
 	@GetMapping("/admin/list")
-	@PreAuthorize("hasRole('ADMIN')")
 	public ModelAndView home3() {
 		ModelAndView andView = new ModelAndView("index");
 		return andView;
