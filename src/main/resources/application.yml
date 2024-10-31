@@ -2,6 +2,10 @@ server:
   port: 8080
 
 spring:
+  security:
+    user:
+      name: username
+      password: password
   datasource:
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
     url: jdbc:sqlserver://localhost:1433;encrypt=true;trustServerCertificate=true;databaseName=my-batis
